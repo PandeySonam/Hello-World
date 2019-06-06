@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <!-- <link href="style1.css" type="styleSheet/css"> -->
+    <link rel="stylesheet" type="text/css" href="style1.css">
+
+</head>
+<body>
+ 
+
+        <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">logo</a>
+                
+              
+               
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+  
+
+
+    <div class="container">
+        <h3 style="margin-left: 143px">Login Form</h3>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+
+    
+  </form>
+</div>
+
+
+          <div class="container-1" style="    width: 700px;
+          background-color: gainsboro;
+          padding: 100px;
+          margin-top: -336px;
+          margin-left: 156px;">
+              <h4 class="paragraph">ART</h4>
+
+
+
+
+
+
+          </div>
+</body>
+</html>
